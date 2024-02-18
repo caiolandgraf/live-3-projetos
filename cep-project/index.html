@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO BUSCA CEP</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <p class="alert">ERRO LOQUI É FEIO</p>
+    <main>
+        <input type="text" name="cep" id="cep"
+        class="form-control" placeholder="Informe seu CEP:"
+        onkeyup="handleZipCode(event)"
+        maxlength="9">
+
+        <button class="btn btn-search" onclick="getDataCep()">Pesquisar</button>
+    </main>
+
+    <section>
+        <h2 id="city"></h2>
+        <p id="address"></p>
+    </section>
+
+    <script src="script.js" type="text/javascript"></script>
+</body >
+</html >

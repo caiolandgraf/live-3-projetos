@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de busca de timezone</title>
+
+    <!-- PASTA NÃO É PASTA -->
+    <!-- PASTA É DIRETÓRIO! -->
+
+    <!-- Link é apenas para CSS e Fontes -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="timezone">Escolha o País:</label>
+        <br>
+        <select name="timezone" id="timezone" class="estiloBonito" onchange="updateClock()">
+            <option value="America/Sao_Paulo">Brasília</option>
+            <option value="Europe/Lisbon">Lísboa</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="America/New_York">Nova Iorque</option>
+            <option value="Europe/London">Londres</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="Asia/Tokyo">Tóquio</option>
+            <!-- Adicione mais opções conforme o nescessário -->
+        </select>
+    </div>
+
+    <br>
+
+    <div id="clock"></div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

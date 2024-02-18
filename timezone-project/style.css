@@ -1,0 +1,18 @@
+body {
+    /* sans-serif -> fonte padrão do browser */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.estiloBonito {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 24px;
+    /* font-weight: bold; */
+    font-weight: 700;
+}

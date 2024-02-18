@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background -> plano de fundo / fundo */
+    /* background: url(https://source.unsplash.com/1600x900/?landscape) center no-repeat / cover; */
+
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    background-color: black;
+
+    width: 95%;
+    max-width: 400px;
+
+    opacity: 0.8;
+
+    padding: 20px;
+
+    border-radius: 25px;
+}
+
+.weather {
+    font-size: 28px
+}
+
+.infoTimeDegrees {
+    display: flex;
+    justify-content: start;
+}
+
+.time {
+    margin-right: 5px;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+}
+
+.weatherInfo>p {
+    margin-left: 20px;
+
+    /* Manzas é Fofinho */
+    text-transform: capitalize;
+}
